@@ -825,13 +825,94 @@ button {
 
 
 
+/* Notebook ———–*/ 
+@media only screen
+and (max-width : 1441px) {
+#main h1 {
+   margin-bottom: 0px;
+}
+.texto h1 {
+    font-size: 120px;
+}
+.flex-teste {
+    margin-top: 0;
+}
+.quiz {
+    max-width: 100%;
+    margin-top: 0;
+}
+.jout {
+    margin-right: 0;
+}
+.jout h2 {
+    margin-top: 60px;
+}
+.result h1 {
+    font-size: 90px;
+}
+.textoresult, .textoresult2 {
+    padding-right: 350px; 
+}
+.textofinal {
+    margin-top: 400px;
+}
+}
 
+
+
+/* iPads ———– */
+@media only screen
+and (max-width : 1024px) {
+.textoresult {
+    margin-top: 0;
+}
+.textoresult2 {
+   margin-top: 0;  
+}
+.textofinal h3 {
+    margin-top: 20px;
+}
+.textofinal2 h3 {
+    margin-top: 20px;
+}
+.flex-item3-musica1 h3 {
+    text-align: left;
+}
+.flex-item3-musica2 h3 {
+    text-align: left;
+}
+.flex-item3-musica3 h3 {
+    text-align: left;
+}
+.parte1 {
+    max-width: 100%;
+}
+}
+
+
+/* Breakpoint ———– */
+@media only screen
+and (max-width : 992px){
+.box {
+    flex-wrap: wrap;
+}
+.boxvideo {
+    margin: 0;
+    width: 100%;
+}
+.textoresult {
+    padding: 200px 30px 0 30px;
+    height: auto;
+    text-align: justify;
+}
+.textofinal {
+    margin: 0;
+}
+}
 
 /* Smartphones ———– */
 @media only screen
 and (max-width : 768px){
-/* Styles */
-
 .texto h1, .result h1 {
  font-size: 30px;   
 }
@@ -910,131 +991,5 @@ and (max-width : 768px){
     font-size: 50px;
 }
 }
-
-
-
-@media only screen
-and (max-width : 992px){
-
-.box {
-    flex-wrap: wrap;
-}
-.boxvideo {
-    margin: 0;
-    width: 100%;
-}
-.textoresult {
-    padding: 200px 30px 0 30px;
-    height: auto;
-    text-align: justify;
-}
-.textofinal {
-    margin: 0;
-}
-
-
-
-}
-
-
-/* iPads ———– */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px) {
-/* Styles */
-}
-
-
-/*Desktops e Laptops ———– 
-@media only screen
-and (min-width : 1224px) {
-
-    .bodyindex, .bodyresultsim {
-        overflow-y: hidden;
-    }
-    #main {
-        padding: 0px;
-    }
-    #main h1{
-        font-size: 100px;
-        margin-bottom: 0px;
-    }
-    .flex-teste {
-        margin-top: 5px;
-    }
-    .quiz h3 {
-        font-size: 30px;
-    }
-    .jout h2 {
-        font-size: 22px;
-    }
-    .modal-content {
-        margin-top: 50px;
-    }
-    .result h1 {
-        text-align: left;
-        font-size: 70px;
-        margin-left: 150px;
-    }
-    .result h3 {
-        text-align: center;
-        font-size: 30px;
-        margin-right: 70px;
-    }
-    .logo-boneca, .logo-boneco {
-        width: 80px;
-        height: 80px;
-    }
-    .boxvideo {
-        width: 300px;
-        height: 200px;
-        margin-left: 50px;
-        margin-top: 40px;
-    }
-    .boxvideo h2 {
-        font-size: 18px;
-        margin: 0px;
-    }
-    .boxvideo video {
-        margin: auto;
-        width: 90%;
-    }
-    .textoresult {
-        width: 700px;
-        margin: 10px;
-        font-size: 11px;
-        padding-right: 0px;
-        margin-left: 50px;
-        margin-top: 25px;
-    }
-    .textofinal {
-        margin-top: 115px;
-    }
-    .textofinal h3, .textofinal p {
-        font-size: 15px;
-        margin-left: 70px;
-    }
-    .textofinal a {
-        color: orangered;
-    }
-    .textoresult h3 {
-        font-size: 15px;
-        text-decoration: bold;
-        margin-top: 40px;
-        text-align: center;
-    }
-    .textoresult h3 > a {
-        color: orangered;
-    }
-}*/
-
-
-/* Large Screen ———– */
-@media only screen
-and (min-width : 1824px) {
-/* Styles */
-}
-
-
 
 
