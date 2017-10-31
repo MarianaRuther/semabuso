@@ -823,11 +823,15 @@ button {
     background-size: cover;
 }
 
+#botoestipos {
+    font-family: 'Roboto Slab', serif;
+}
+
 
 
 /* Notebook ———–*/ 
 @media only screen
-and (max-width : 1441px) {
+and (max-width : 1440px) {
 #main h1 {
    margin-bottom: 0px;
 }
@@ -850,30 +854,75 @@ and (max-width : 1441px) {
 .result h1 {
     font-size: 90px;
 }
-.textoresult, .textoresult2 {
-    padding-right: 350px; 
-}
-.textofinal {
-    margin-top: 400px;
-}
-}
-
-
-
-/* iPads ———– */
-@media only screen
-and (max-width : 1024px) {
 .textoresult {
-    margin-top: 0;
+    padding-right: 324px;
+    margin-left: 20px; 
 }
 .textoresult2 {
-   margin-top: 0;  
+    padding-right: 50px;
+    margin-left: 20px; 
+}
+.textofinal {
+    margin-top: 450px;
+    width: 100%;
+}
+.result h3{
+    margin-bottom: 0;
+}
+.box2 {
+    display: inline;
+    flex-wrap: nowrap;
+}
+#flex-container {
+    font-size: 16px;
+}
+.flex-item3-musica1, .flex-item3-musica2, .flex-item3-musica3 {
+    width: 24%;
+}
+.flex-item3-musica1 {
+    margin-left: 50px;
+}
+.flex-item3-musica3 {
+    font-size: 17px;
+}
+}
+
+
+
+/* Tablet ———– */
+@media only screen
+and (max-width : 1024px) {
+.result h1 {
+    font-size: 80px;
+}
+.textoresult {
+    margin-top: 0;
+    padding-right: 100px;
+}
+.textoresult h2 {
+    font-size: 18px;
+}
+.textoresult2 {
+   margin-top: 0;
+   width: 320px; 
+   padding-right: 200px; 
+}
+.textofinal {
+    margin-top: 420px;
+}
+.boxvideo video {
+    width: 90%;
 }
 .textofinal h3 {
     margin-top: 20px;
 }
 .textofinal2 h3 {
     margin-top: 20px;
+}
+.textofinal2 {
+    margin-top: 400px;
+    width: 600px;
+    margin-left: 30px;
 }
 .flex-item3-musica1 h3 {
     text-align: left;
@@ -886,6 +935,10 @@ and (max-width : 1024px) {
 }
 .parte1 {
     max-width: 100%;
+}
+.box2{
+    display: flex;
+    position: absolute;
 }
 }
 
@@ -927,10 +980,6 @@ and (max-width : 768px){
     margin-right: 0;
     margin-top: 40px;
 }
-.result h1 {
-    margin: 0;
-    height: auto;
-}
 .flexContato {
     flex-direction: column; 
 }
@@ -938,28 +987,11 @@ and (max-width : 768px){
     margin: 0;
     text-align: center;
 }
-.boxvideo2 {
-    margin: 0;
-    width: 100%;
-}
-.boxvideo2 h2 {
-    margin: 0;
-}
 .result h3 {
     font-size: 25px;
 }
-.box {
-    flex-wrap: wrap;
-}
-.textoresult2 {
-    padding: 180px 30px 0 30px;
-    height: auto;
-}
-.textofinal2 {
-    margin: 0;
-}
 .textoabuso h1 {
-    font-size: 40px;
+    font-size: 36px;
     text-align: auto;
     margin-bottom: 20px;
 }
@@ -990,6 +1022,111 @@ and (max-width : 768px){
     margin-top: 30px;
     font-size: 50px;
 }
+.result h1 {
+    font-size: 50px;
+}
+.boxvideo video2 {
+    width: 50%;
+}
+.textoresult h2 {
+    font-size: 15px;
+}
+.textoresult2 {
+   width: 100%;
+   padding-right: 10px;
+}
+.textofinal {
+    margin-top: 50px;
+}
+.textofinal h3 {
+    margin-top: 20px;
+}
+.textofinal2 h3 {
+    margin-top: 20px;
+}
+.textofinal2 {
+    margin-top: 700px;  
+    margin-left: 0px;
+    padding-left: 80px;
+}
+.boxvideo2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+
+}
 }
 
 
+
+/* Smartphones ———– */
+@media only screen
+and (max-width : 475px){
+.boxvideo video {
+    width: 80%;
+    margin-bottom: 50px;
+}
+.textoresult {
+    padding-left: 9px;
+}
+.textofinal h3 {
+    font-size: 18px;
+}
+.textofinal p {
+    font-size: 16px;
+}
+.boxvideo h2 {
+    margin: 0;
+}
+}
+
+
+
+/* Smartphones ———– */
+@media only screen
+and (max-width : 375px){
+.boxvideo video {
+    width: 80%;
+    margin-bottom: 50px;
+}
+.textoresult {
+    padding-left: 9px;
+}
+.textofinal h3 {
+    font-size: 18px;
+}
+.textofinal p {
+    font-size: 15px;
+}
+.boxvideo h2 {
+    margin: 0;
+}
+}
+
+
+
+/* Smartphones ———– */
+@media only screen
+and (max-width : 320px){
+.result h1 {
+    font-size: 50px;
+    padding-left: -6px;
+    padding-top: 20px;
+}
+.boxvideo video {
+    width: 80%;
+    margin-bottom: 50px;
+}
+.boxvideo h2 {
+    margin: 0;
+}
+.textoresult {
+    padding-left: 9px;
+}
+.textofinal h3 {
+    font-size: 18px;
+}
+.textofinal p {
+    font-size: 15px;
+}
+}
