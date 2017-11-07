@@ -944,7 +944,7 @@ and (max-width : 1024px) {
 
 
 /* Breakpoint ———– */
-@media only screen
+/* @media only screen
 and (max-width : 992px){
 .box {
     flex-wrap: wrap;
@@ -961,7 +961,7 @@ and (max-width : 992px){
 .textofinal {
     margin: 0;
 }
-}
+} */
 
 /* Smartphones ———– */
 @media only screen
